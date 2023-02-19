@@ -1,6 +1,11 @@
 import { createStyles } from '@mantine/core';
 
 export default createStyles((theme) => ({
+  mainContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignContent: 'center'
+  },
   title: {
     color: theme.primaryColor,
     fontSize: 100,
@@ -11,4 +16,8 @@ export default createStyles((theme) => ({
       fontSize: 50,
     },
   },
+  button: {
+    width: 'fit-content',
+    alignSelf: 'center'
+  }
 }));
